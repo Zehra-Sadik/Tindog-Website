@@ -1,0 +1,136 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+#title{
+  background-color: #ff4c68;
+}
+.navbar {
+  padding: 1.2% 5%;
+}
+.navbar-link{
+  size: 1.5rem;
+}
+h1 {
+  padding: 5%;
+font: 16px 'Montserrat', sans-serif; font-weight: 900;
+font-size: 3rem;
+color: #fff ;
+line-height: 1.5;
+font-weight: 900;
+}
+.container-fluid {
+  padding: 5% 15% 7%;
+  /* height: 540px; */
+}
+
+.download-btn {
+  padding: 2%;
+  margin:5% 3% 5% 0%;
+}
+#image {
+  width: 21%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+/* .row {
+  margin: 3%;
+  padding: 2% 5% 2%;
+} */
+.icons {
+  font-size: 3rem;
+  color: #ff4c68;
+  margin: 2%;
+  text-align: center;
+}
+.icons:hover {
+  color: #ef8172;
+}
+#features {
+  background-color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 5% 10%;
+  position: relative;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight:50 0;
+}
+#testimonials {
+  /* padding: 5% 10%; */
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+.carousel-item{
+  padding: 5% 10%;
+}
+h2 {
+  font: "Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonials-image{
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #ff4c68;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.btn-card {
+  width: 100%;
+}
+
+@media (max-width:1028px){
+  #image {
+    position: static;
+    align-self: center;
+    width: 50%;
+    padding-top: 10px;
+    transform: rotate(0deg);
+  }
+}
+
+#cta {
+  padding: 5% 10%;
+  color: white;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-text {
+  font: "Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* .cta-button {
+  padding: 2%;
+  margin:5% 3% 5% 0%;
+} */
+
+#footer {
+  padding: 5% 10%;
+  text-align: center;
+}
+.social-icons {
+  margin: 20px 10px;
+}
